@@ -31,6 +31,8 @@ const useStyles = makeStyles((theme) => ({
 const MainLayout: React.FC = ({children}) => {
   const classes = useStyles();
 
+  document.title = 'Sport Nutrition App';
+
   return (
     <>
       <Header/>
